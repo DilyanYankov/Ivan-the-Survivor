@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.js">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerController.js" Line="14" Column="22" />
+      <File FileName="Assets\Scripts\LevelManager.js" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\KillPlayer.js" Line="9" Column="48" />
+      <File FileName="Assets\Scripts\Checkpoint.js" Line="2" Column="1" />
+      <File FileName="Assets\Scripts\EnemyPatrol.js" Line="40" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
