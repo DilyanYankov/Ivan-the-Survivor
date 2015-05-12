@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\KillPlayer.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerController.js" Line="14" Column="22" />
-      <File FileName="Assets\Scripts\LevelManager.js" Line="23" Column="2" />
-      <File FileName="Assets\Scripts\KillPlayer.js" Line="9" Column="48" />
-      <File FileName="Assets\Scripts\Checkpoint.js" Line="2" Column="1" />
-      <File FileName="Assets\Scripts\EnemyPatrol.js" Line="40" Column="12" />
+      <File FileName="Assets\Scripts\PlayerController.js" Line="11" Column="20" />
+      <File FileName="Assets\Scripts\LevelManager.js" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\KillPlayer.js" Line="27" Column="29" />
+      <File FileName="Assets\Scripts\Checkpoint.js" Line="21" Column="25" />
+      <File FileName="Assets\Scripts\EnemyPatrol.js" Line="22" Column="46" />
+      <File FileName="Assets\Scripts\PickUpFood.js" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\EndGame.js" Line="19" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

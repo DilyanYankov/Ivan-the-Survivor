@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-
+var player: PlayerController;
 var levelManager: LevelManager;
 var enemyRigidbody2D: Rigidbody2D;
 
@@ -8,6 +8,7 @@ var enemyRigidbody2D: Rigidbody2D;
 function Start () {
 	levelManager = FindObjectOfType(LevelManager);
 	enemyRigidbody2D = GetComponent(Rigidbody2D);
+	player = FindObjectOfType(PlayerController);
 	
 }
 
@@ -19,8 +20,10 @@ function OnTriggerEnter2D(other: Collider2D){
 	
 	
 	if(other.name == "Player"){
-		Debug.Log(enemyRigidbody2D.velocity.x);
-		levelManager.isDead = true;
+		enemyRigidbody2D.Sleep();
+		player.isDead = true;
+		Debug.Log(player.isDead);
 		levelManager.RespawnPlayer();
+		enemyRigidbody2D.WakeUp();
 	}
 }

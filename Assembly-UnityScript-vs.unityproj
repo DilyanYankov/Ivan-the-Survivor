@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Checkpoint.js" />
+     <Compile Include="Assets\Scripts\EndGame.js" />
      <Compile Include="Assets\Scripts\EnemyPatrol.js" />
      <Compile Include="Assets\Scripts\KillPlayer.js" />
      <Compile Include="Assets\Scripts\LevelManager.js" />
+     <Compile Include="Assets\Scripts\PickUpFood.js" />
      <Compile Include="Assets\Scripts\PlayerController.js" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="UnityEngine.UI">

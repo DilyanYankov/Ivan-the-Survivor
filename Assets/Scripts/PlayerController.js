@@ -16,7 +16,6 @@ var hasFood: boolean;
 
 
 function Start () {
-
 	myRigidbody2D = GetComponent(Rigidbody2D);
 	anim = GetComponent(Animator);
 	levelManager = FindObjectOfType(LevelManager);
@@ -29,17 +28,16 @@ function FixedUpdate() {
 }
 
 function Update () {
-
-	isDead = levelManager.isDead;
 	
 	if(Input.GetKeyDown(KeyCode.Space) && grounded){
 		myRigidbody2D.velocity = new Vector2(myRigidbody2D.velocity.x, jumpHeight);
 	}
 	
 	if(grounded){
-		anim.SetBool("Grounded",grounded);
+		anim.SetBool("Grounded",true);
 	}
 	
+	Debug.Log(grounded);
 	moveVelocity = 0f;
 	
 	if(Input.GetKey(KeyCode.D)){
@@ -64,7 +62,10 @@ function Update () {
 		transform.localScale = new Vector3(-1f, 1f, 1f);
 	}
 	
-	anim.SetBool("IsDead",isDead); 	
+	if(isDead){
+		anim.SetBool("IsDead", true);
+	}
+	
 }
 
 
